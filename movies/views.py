@@ -1,4 +1,3 @@
-from functools import partial
 from rest_framework.views import APIView,Request,Response,status
 from rest_framework.authentication import TokenAuthentication
 from movies.serializers import MovieSerializer
